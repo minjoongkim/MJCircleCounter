@@ -1,0 +1,29 @@
+# MJCircleCounter
+
+[![CI Status](http://img.shields.io/travis/minjoongkim/MJCircleCounter.svg?style=flat)](https://travis-ci.org/minjoongkim/MJCircleCounter)
+[![Version](https://img.shields.io/cocoapods/v/MJCircleCounter.svg?style=flat)](http://cocoapods.org/pods/MJCircleCounter)
+[![License](https://img.shields.io/cocoapods/l/MJCircleCounter.svg?style=flat)](http://cocoapods.org/pods/MJCircleCounter)
+[![Platform](https://img.shields.io/cocoapods/p/MJCircleCounter.svg?style=flat)](http://cocoapods.org/pods/MJCircleCounter)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+MJCircleCounter is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "MJCircleCounter"
+```
+
+## Author
+
+minjoongkim, kmj6773@gmail.com
+
+## License
+
+MJCircleCounter is available under the MIT license. See the LICENSE file for more info.

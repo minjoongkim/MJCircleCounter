@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MJCircleCounter_Example' do
+  pod 'MJCircleCounter', :path => '../'
+
+  target 'MJCircleCounter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
