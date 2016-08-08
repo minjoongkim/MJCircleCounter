@@ -7,7 +7,11 @@
 //
 
 @import UIKit;
+#import "MJCircleCounter.h"
 
-@interface MJCircleCounterViewController : UIViewController
+@interface MJCircleCounterViewController : UIViewController <MJCircleCounterDelegate>
+
+@property (retain, nonatomic) IBOutlet MJCircleCounter *circleCounter;
+@property (retain) IBOutlet UILabel *lbl_second;
 
 @end

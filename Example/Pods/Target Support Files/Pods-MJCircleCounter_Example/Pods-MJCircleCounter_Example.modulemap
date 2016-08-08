@@ -1,0 +1,6 @@
+framework module Pods_MJCircleCounter_Example {
+  umbrella header "Pods-MJCircleCounter_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

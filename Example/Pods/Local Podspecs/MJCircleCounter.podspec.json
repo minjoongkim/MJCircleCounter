@@ -1,0 +1,22 @@
+{
+  "name": "MJCircleCounter",
+  "version": "0.1.0",
+  "summary": "A short description of MJCircleCounter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MJCircleCounter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "minjoongkim": "kmj6773@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MJCircleCounter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MJCircleCounter/Classes/**/*"
+}

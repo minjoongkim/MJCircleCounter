@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		141C8A8234581BAE88F0795DF4D9574E /* Pods-MJCircleCounter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE33AE6FDFBE2DBC708F9D39BA725A63 /* Pods-MJCircleCounter_Example-dummy.m */; };
+		24C0DF372DC3D6AF0B768746B326F05A /* MJCircleCounter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8084A012BA0126DA2E755CF94B8E8B /* MJCircleCounter-dummy.m */; };
+		30E27DD152988A101A8F468B2549B590 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		66802276275A96FC0DEA74C6A70445C8 /* Pods-MJCircleCounter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F5A1B6BB136C6D64F12ABC2FE6929C /* Pods-MJCircleCounter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F4E2ACB36C11F78009328880E79A2B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7D357A29EDAEA681268CA6B53208AA18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		86948573C55F0E156EC9A5DB2360D53B /* Pods-MJCircleCounter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D449FCABDAA2A7CE5B5F2D96D4B926 /* Pods-MJCircleCounter_Tests-dummy.m */; };
+		A16B8172CA8E584AAAEEBCD060E20B08 /* Pods-MJCircleCounter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DF80F0C5EBAE554E13E07CAFE4FF4E7 /* Pods-MJCircleCounter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8B3326A88F976D79016759BE0E7A4E3 /* MJCircleCounter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE241C3173ACCA6D9CCD27E65AAD3FC1 /* MJCircleCounter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A973931EDDD6627D15C382EA706D0231 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB3A4FD71E7D2883ABE663E9FCB1962 /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88D7B38D76397F62706971FB852853B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C892EA372A183DC51B941B94CDEB81B;
+			remoteInfo = MJCircleCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		058CCA4673E744A4EC14921A3BC84CA3 /* Pods-MJCircleCounter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJCircleCounter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		118B9F9B1920830ECB2930DB897FB3F6 /* Pods-MJCircleCounter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MJCircleCounter_Example-resources.sh"; sourceTree = "<group>"; };
+		1DF80F0C5EBAE554E13E07CAFE4FF4E7 /* Pods-MJCircleCounter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MJCircleCounter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		25C9960008E191C8B1A28CB8DBAC0F48 /* Pods-MJCircleCounter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJCircleCounter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		36BE8118C81A554AF83D001E0F7D95D2 /* MJCircleCounter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MJCircleCounter.modulemap; sourceTree = "<group>"; };
+		371AC60533E658C703D13E4A53F596F3 /* Pods-MJCircleCounter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MJCircleCounter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		52F5A1B6BB136C6D64F12ABC2FE6929C /* Pods-MJCircleCounter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MJCircleCounter_Example-umbrella.h"; sourceTree = "<group>"; };
+		62C8EAEA87A73DFE38580E57FA2E5A9E /* MJCircleCounter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJCircleCounter.xcconfig; sourceTree = "<group>"; };
+		652012E0417D91C5856B688EB79CE07F /* Pods-MJCircleCounter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MJCircleCounter_Example.modulemap"; sourceTree = "<group>"; };
+		6E535DC504EEC37ED6F50CF79BD707D2 /* Pods_MJCircleCounter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJCircleCounter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7584292D25804D5ADB919FDA69869532 /* Pods-MJCircleCounter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJCircleCounter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7D4B3ADD9A8725DC09D7D6E8DAAB41F7 /* Pods-MJCircleCounter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MJCircleCounter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7DB3A4FD71E7D2883ABE663E9FCB1962 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		82B3F3016700257176838B9C63CBE02E /* MJCircleCounter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJCircleCounter-prefix.pch"; sourceTree = "<group>"; };
+		8D3EE120705075DFED215B5877026DD5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9039339EB6BD95CFB0ED7E6F8DFD109C /* Pods-MJCircleCounter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MJCircleCounter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D5E322857EB339C6BB1C8E741579439 /* Pods-MJCircleCounter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJCircleCounter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9E24681AB5A714406659FE675F3B87F8 /* Pods-MJCircleCounter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MJCircleCounter_Tests.modulemap"; sourceTree = "<group>"; };
+		A248A54EFC1A0B5EF7CA1018651F323A /* Pods-MJCircleCounter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJCircleCounter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B6351E765C7BABEAB574779D37C0D77D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3F9474A25B16D6248340146B7EBE2C4 /* MJCircleCounter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJCircleCounter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBDE3D55B5A01FD7575CB57D2DE627DB /* Pods-MJCircleCounter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MJCircleCounter_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D54F7861B39B83A5600F96DF061EF65E /* Pods_MJCircleCounter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJCircleCounter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB41346A3FFFB856E6C12DDB6646FAAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBA15C4033E87B7881BFC4AFFC5032AB /* Pods-MJCircleCounter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJCircleCounter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DE33AE6FDFBE2DBC708F9D39BA725A63 /* Pods-MJCircleCounter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MJCircleCounter_Example-dummy.m"; sourceTree = "<group>"; };
+		E5D449FCABDAA2A7CE5B5F2D96D4B926 /* Pods-MJCircleCounter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MJCircleCounter_Tests-dummy.m"; sourceTree = "<group>"; };
+		EE241C3173ACCA6D9CCD27E65AAD3FC1 /* MJCircleCounter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJCircleCounter-umbrella.h"; sourceTree = "<group>"; };
+		FA9060F46B99423D8394CCD84CB6BE81 /* Pods-MJCircleCounter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MJCircleCounter_Tests-resources.sh"; sourceTree = "<group>"; };
+		FB8084A012BA0126DA2E755CF94B8E8B /* MJCircleCounter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJCircleCounter-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0770F53DFD3B6DA606614D590B2518BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E27DD152988A101A8F468B2549B590 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		120F6691A4D1C6FC17D14B7DC97728A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4E2ACB36C11F78009328880E79A2B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E7CDAB81DD12E9D45AD4A4AF67F160B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D357A29EDAEA681268CA6B53208AA18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DF5850EBF0BDBDD2C9B76AFA8F65756 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7DB3A4FD71E7D2883ABE663E9FCB1962 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3A5E7EDEFF324432B46AB1F2D0B3D63E /* Pods-MJCircleCounter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B6351E765C7BABEAB574779D37C0D77D /* Info.plist */,
+				9E24681AB5A714406659FE675F3B87F8 /* Pods-MJCircleCounter_Tests.modulemap */,
+				371AC60533E658C703D13E4A53F596F3 /* Pods-MJCircleCounter_Tests-acknowledgements.markdown */,
+				058CCA4673E744A4EC14921A3BC84CA3 /* Pods-MJCircleCounter_Tests-acknowledgements.plist */,
+				E5D449FCABDAA2A7CE5B5F2D96D4B926 /* Pods-MJCircleCounter_Tests-dummy.m */,
+				CBDE3D55B5A01FD7575CB57D2DE627DB /* Pods-MJCircleCounter_Tests-frameworks.sh */,
+				FA9060F46B99423D8394CCD84CB6BE81 /* Pods-MJCircleCounter_Tests-resources.sh */,
+				1DF80F0C5EBAE554E13E07CAFE4FF4E7 /* Pods-MJCircleCounter_Tests-umbrella.h */,
+				25C9960008E191C8B1A28CB8DBAC0F48 /* Pods-MJCircleCounter_Tests.debug.xcconfig */,
+				A248A54EFC1A0B5EF7CA1018651F323A /* Pods-MJCircleCounter_Tests.release.xcconfig */,
+			);
+			name = "Pods-MJCircleCounter_Tests";
+			path = "Target Support Files/Pods-MJCircleCounter_Tests";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		47E78EBD513AC6434B2D3F693B2C1B43 /* MJCircleCounter */ = {
+			isa = PBXGroup;
+			children = (
+				0DF5850EBF0BDBDD2C9B76AFA8F65756 /* Classes */,
+			);
+			path = MJCircleCounter;
+			sourceTree = "<group>";
+		};
+		4978AEA23AE0621172F28E33E0556E8C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4D275C95128DB729BF7D3CC07D817F6 /* MJCircleCounter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4978AEA23AE0621172F28E33E0556E8C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				801B8ECE36D1A4EF8315D1F3521E5B0F /* Products */,
+				F3480899E45A518E7ED0DD9CCA017908 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		801B8ECE36D1A4EF8315D1F3521E5B0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3F9474A25B16D6248340146B7EBE2C4 /* MJCircleCounter.framework */,
+				D54F7861B39B83A5600F96DF061EF65E /* Pods_MJCircleCounter_Example.framework */,
+				6E535DC504EEC37ED6F50CF79BD707D2 /* Pods_MJCircleCounter_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9839B9AD2D7B77B0E55152E155010AA0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D3EE120705075DFED215B5877026DD5 /* Info.plist */,
+				36BE8118C81A554AF83D001E0F7D95D2 /* MJCircleCounter.modulemap */,
+				62C8EAEA87A73DFE38580E57FA2E5A9E /* MJCircleCounter.xcconfig */,
+				FB8084A012BA0126DA2E755CF94B8E8B /* MJCircleCounter-dummy.m */,
+				82B3F3016700257176838B9C63CBE02E /* MJCircleCounter-prefix.pch */,
+				EE241C3173ACCA6D9CCD27E65AAD3FC1 /* MJCircleCounter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MJCircleCounter";
+			sourceTree = "<group>";
+		};
+		BB835B0C1B545E96895AB77DBF4E4051 /* Pods-MJCircleCounter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DB41346A3FFFB856E6C12DDB6646FAAE /* Info.plist */,
+				652012E0417D91C5856B688EB79CE07F /* Pods-MJCircleCounter_Example.modulemap */,
+				7D4B3ADD9A8725DC09D7D6E8DAAB41F7 /* Pods-MJCircleCounter_Example-acknowledgements.markdown */,
+				DBA15C4033E87B7881BFC4AFFC5032AB /* Pods-MJCircleCounter_Example-acknowledgements.plist */,
+				DE33AE6FDFBE2DBC708F9D39BA725A63 /* Pods-MJCircleCounter_Example-dummy.m */,
+				9039339EB6BD95CFB0ED7E6F8DFD109C /* Pods-MJCircleCounter_Example-frameworks.sh */,
+				118B9F9B1920830ECB2930DB897FB3F6 /* Pods-MJCircleCounter_Example-resources.sh */,
+				52F5A1B6BB136C6D64F12ABC2FE6929C /* Pods-MJCircleCounter_Example-umbrella.h */,
+				7584292D25804D5ADB919FDA69869532 /* Pods-MJCircleCounter_Example.debug.xcconfig */,
+				9D5E322857EB339C6BB1C8E741579439 /* Pods-MJCircleCounter_Example.release.xcconfig */,
+			);
+			name = "Pods-MJCircleCounter_Example";
+			path = "Target Support Files/Pods-MJCircleCounter_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4D275C95128DB729BF7D3CC07D817F6 /* MJCircleCounter */ = {
+			isa = PBXGroup;
+			children = (
+				47E78EBD513AC6434B2D3F693B2C1B43 /* MJCircleCounter */,
+				9839B9AD2D7B77B0E55152E155010AA0 /* Support Files */,
+			);
+			name = MJCircleCounter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F3480899E45A518E7ED0DD9CCA017908 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB835B0C1B545E96895AB77DBF4E4051 /* Pods-MJCircleCounter_Example */,
+				3A5E7EDEFF324432B46AB1F2D0B3D63E /* Pods-MJCircleCounter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4CCD14DA7C342AAE905B37D936B0D2B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66802276275A96FC0DEA74C6A70445C8 /* Pods-MJCircleCounter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B2CFF1065143FE6B7809259535D7C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16B8172CA8E584AAAEEBCD060E20B08 /* Pods-MJCircleCounter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6563806DA698D35850C0C8F82ECD82E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B3326A88F976D79016759BE0E7A4E3 /* MJCircleCounter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8C892EA372A183DC51B941B94CDEB81B /* MJCircleCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00BBE804D8E337FE24772A079572D5F2 /* Build configuration list for PBXNativeTarget "MJCircleCounter" */;
+			buildPhases = (
+				E02ADC0E45036BDD279A18F0B32FED8E /* Sources */,
+				0770F53DFD3B6DA606614D590B2518BE /* Frameworks */,
+				F6563806DA698D35850C0C8F82ECD82E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJCircleCounter;
+			productName = MJCircleCounter;
+			productReference = C3F9474A25B16D6248340146B7EBE2C4 /* MJCircleCounter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F29D5C27853A6DACC5CF5883E13CD6DE /* Pods-MJCircleCounter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FF5BD98C882CA5D44E9DDDEA2EADE98 /* Build configuration list for PBXNativeTarget "Pods-MJCircleCounter_Tests" */;
+			buildPhases = (
+				0C91477B153C4BECF2833073D14E66D8 /* Sources */,
+				120F6691A4D1C6FC17D14B7DC97728A7 /* Frameworks */,
+				E6B2CFF1065143FE6B7809259535D7C5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MJCircleCounter_Tests";
+			productName = "Pods-MJCircleCounter_Tests";
+			productReference = 6E535DC504EEC37ED6F50CF79BD707D2 /* Pods_MJCircleCounter_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC7217F6372711C848494829B3BA0858 /* Pods-MJCircleCounter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A68B42E1FEDC5AED2D35187943F1AB5 /* Build configuration list for PBXNativeTarget "Pods-MJCircleCounter_Example" */;
+			buildPhases = (
+				D5EE92A290C362BD1E552E8E3B78AF0E /* Sources */,
+				9E7CDAB81DD12E9D45AD4A4AF67F160B /* Frameworks */,
+				4CCD14DA7C342AAE905B37D936B0D2B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC9F3C8DF07A366BC74AD0A8F7483ACF /* PBXTargetDependency */,
+			);
+			name = "Pods-MJCircleCounter_Example";
+			productName = "Pods-MJCircleCounter_Example";
+			productReference = D54F7861B39B83A5600F96DF061EF65E /* Pods_MJCircleCounter_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 801B8ECE36D1A4EF8315D1F3521E5B0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C892EA372A183DC51B941B94CDEB81B /* MJCircleCounter */,
+				FC7217F6372711C848494829B3BA0858 /* Pods-MJCircleCounter_Example */,
+				F29D5C27853A6DACC5CF5883E13CD6DE /* Pods-MJCircleCounter_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C91477B153C4BECF2833073D14E66D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86948573C55F0E156EC9A5DB2360D53B /* Pods-MJCircleCounter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5EE92A290C362BD1E552E8E3B78AF0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141C8A8234581BAE88F0795DF4D9574E /* Pods-MJCircleCounter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02ADC0E45036BDD279A18F0B32FED8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C0DF372DC3D6AF0B768746B326F05A /* MJCircleCounter-dummy.m in Sources */,
+				A973931EDDD6627D15C382EA706D0231 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC9F3C8DF07A366BC74AD0A8F7483ACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJCircleCounter;
+			target = 8C892EA372A183DC51B941B94CDEB81B /* MJCircleCounter */;
+			targetProxy = 88D7B38D76397F62706971FB852853B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F1C173CF108D7A05A681B96BEBC5FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C8EAEA87A73DFE38580E57FA2E5A9E /* MJCircleCounter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MJCircleCounter/MJCircleCounter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJCircleCounter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJCircleCounter/MJCircleCounter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MJCircleCounter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2432C8D469034249669DAF541F321293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C8EAEA87A73DFE38580E57FA2E5A9E /* MJCircleCounter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MJCircleCounter/MJCircleCounter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJCircleCounter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJCircleCounter/MJCircleCounter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MJCircleCounter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A887F25ABD34ACA153371D1188E024C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7584292D25804D5ADB919FDA69869532 /* Pods-MJCircleCounter_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MJCircleCounter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MJCircleCounter_Example/Pods-MJCircleCounter_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MJCircleCounter_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C95D4C8F4CEB81571E99AEA827B64426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C9960008E191C8B1A28CB8DBAC0F48 /* Pods-MJCircleCounter_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MJCircleCounter_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MJCircleCounter_Tests/Pods-MJCircleCounter_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MJCircleCounter_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D9AAB99055639F213AE696D1EFD5D150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D5E322857EB339C6BB1C8E741579439 /* Pods-MJCircleCounter_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MJCircleCounter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MJCircleCounter_Example/Pods-MJCircleCounter_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MJCircleCounter_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4E6183EC0005A79FBFFA39E1A36051D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A248A54EFC1A0B5EF7CA1018651F323A /* Pods-MJCircleCounter_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MJCircleCounter_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MJCircleCounter_Tests/Pods-MJCircleCounter_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MJCircleCounter_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00BBE804D8E337FE24772A079572D5F2 /* Build configuration list for PBXNativeTarget "MJCircleCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1C173CF108D7A05A681B96BEBC5FFD /* Debug */,
+				2432C8D469034249669DAF541F321293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A68B42E1FEDC5AED2D35187943F1AB5 /* Build configuration list for PBXNativeTarget "Pods-MJCircleCounter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A887F25ABD34ACA153371D1188E024C /* Debug */,
+				D9AAB99055639F213AE696D1EFD5D150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FF5BD98C882CA5D44E9DDDEA2EADE98 /* Build configuration list for PBXNativeTarget "Pods-MJCircleCounter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95D4C8F4CEB81571E99AEA827B64426 /* Debug */,
+				E4E6183EC0005A79FBFFA39E1A36051D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		153A521D4B57F1E890C19DA1 /* Pods_MJCircleCounter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D16FFADD6053EC526AA045 /* Pods_MJCircleCounter_Tests.framework */; };
+		1E6A4C611D58715800F121B9 /* MJCircleCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6A4C601D58715800F121B9 /* MJCircleCounter.m */; };
 		5B0F825F6A3D51753D7CCB80 /* Pods_MJCircleCounter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 298BDBB4B21F2BCAC4D5B328 /* Pods_MJCircleCounter_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		1603009CD15E8C46504DBB95 /* Pods-MJCircleCounter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJCircleCounter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MJCircleCounter_Tests/Pods-MJCircleCounter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1E6A4C5F1D58715800F121B9 /* MJCircleCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJCircleCounter.h; sourceTree = "<group>"; };
+		1E6A4C601D58715800F121B9 /* MJCircleCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJCircleCounter.m; sourceTree = "<group>"; };
 		298BDBB4B21F2BCAC4D5B328 /* Pods_MJCircleCounter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJCircleCounter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D16FFADD6053EC526AA045 /* Pods_MJCircleCounter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJCircleCounter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59518A502A8E86C49140512F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -93,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E6A4C5E1D58715800F121B9 /* MJCircleCounter */ = {
+			isa = PBXGroup;
+			children = (
+				1E6A4C5F1D58715800F121B9 /* MJCircleCounter.h */,
+				1E6A4C601D58715800F121B9 /* MJCircleCounter.m */,
+			);
+			path = MJCircleCounter;
+			sourceTree = "<group>";
+		};
 		50713B195BDDF8F56943E9B6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +153,7 @@
 		6003F593195388D20070C39A /* Example for MJCircleCounter */ = {
 			isa = PBXGroup;
 			children = (
+				1E6A4C5E1D58715800F121B9 /* MJCircleCounter */,
 				6003F59C195388D20070C39A /* MJCircleCounterAppDelegate.h */,
 				6003F59D195388D20070C39A /* MJCircleCounterAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -391,6 +404,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* MJCircleCounterAppDelegate.m in Sources */,
+				1E6A4C611D58715800F121B9 /* MJCircleCounter.m in Sources */,
 				6003F5A7195388D20070C39A /* MJCircleCounterViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

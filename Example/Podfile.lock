@@ -1,0 +1,16 @@
+PODS:
+  - MJCircleCounter (0.1.0)
+
+DEPENDENCIES:
+  - MJCircleCounter (from `../`)
+
+EXTERNAL SOURCES:
+  MJCircleCounter:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MJCircleCounter: 787d6ae2944fd0d601b3ff321fd54b6f213118bf
+
+PODFILE CHECKSUM: c84073d96458e0210703435861a3dc8ad367ac4c
+
+COCOAPODS: 1.0.1

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Circle Counter View Controller-->
         <scene sceneID="wQg-tq-qST">
             <objects>
                 <viewController id="whP-gf-Uak" customClass="MJCircleCounterViewController" sceneMemberID="viewController">
@@ -14,10 +16,39 @@
                         <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NpQ-1J-7lG" customClass="MJCircleCounter">
+                                <rect key="frame" x="57" y="62" width="300" height="300"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wrh-WM-MSp">
+                                        <rect key="frame" x="62" y="81" width="176" height="138"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="wrh-WM-MSp" firstAttribute="centerX" secondItem="NpQ-1J-7lG" secondAttribute="centerX" id="IGt-yN-kZj"/>
+                                    <constraint firstAttribute="width" secondItem="NpQ-1J-7lG" secondAttribute="height" multiplier="1:1" id="oP3-cl-GvS"/>
+                                    <constraint firstItem="wrh-WM-MSp" firstAttribute="centerY" secondItem="NpQ-1J-7lG" secondAttribute="centerY" id="tqC-Lq-5wm"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NpQ-1J-7lG" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="42" id="K2M-gt-eOj"/>
+                            <constraint firstItem="NpQ-1J-7lG" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="37" id="L36-ej-dX7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NpQ-1J-7lG" secondAttribute="trailing" constant="37" id="bLv-cI-Vyt"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="circleCounter" destination="NpQ-1J-7lG" id="g9n-6O-c0h"/>
+                        <outlet property="lbl_second" destination="wrh-WM-MSp" id="ARQ-Ih-IIV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
