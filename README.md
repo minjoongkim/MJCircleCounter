@@ -1,3 +1,7 @@
+MJCircleCounter is a simple time Counter.
+
+![MJCircleCounter](MJCircleCounter.gif "Example 1")
+
 # MJCircleCounter
 
 [![CI Status](http://img.shields.io/travis/minjoongkim/MJCircleCounter.svg?style=flat)](https://travis-ci.org/minjoongkim/MJCircleCounter)
@@ -19,6 +23,48 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "MJCircleCounter"
 ```
+
+
+Then, simply place this line in any file that uses MJCircleCounter.
+
+```objc
+#import <MJCircleCounter.h>
+```
+
+MJCircleCounter works on iOS 6.0 and up.
+
+## Usage
+
+###Example usage: *.h
+
+```objc
+#import "MJCircleCounter.h"
+
+@interface MJCircleCounterViewController : UIViewController <MJCircleCounterDelegate>
+
+@property (retain, nonatomic) IBOutlet MJCircleCounter *circleCounter;
+@property (retain) IBOutlet UILabel *lbl_second;
+
+
+```
+
+###Example usage: *.m
+
+```objc
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    // Do any additional setup after loading the view, typically from a nib.
+    
+    _circleCounter.delegate = self;
+    _circleCounter.timerLabel = _lbl_second;
+    
+    [self.circleCounter startWithSeconds:60 remainTime:0];
+
+}
+
+```
+
 
 ## Author
 
