@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "name": "김민중",
+      "id": "kmj",
+      "pw": "kmj",
+      "licenseExpiry": "2024-08-30",
+      "permission": "마스터"
+    },
+    {
+      "name": "공돌이",
+      "id": "gong",
+      "pw": "gong",
+      "licenseExpiry": "2024-08-30",
+      "permission": "마스터"
+    },
+    {
+      "name": "김승철",
+      "id": "ksc",
+      "pw": "ksc",
+      "licenseExpiry": "2024-08-30",
+      "permission": "마스터"
+    },
+    {
+      "name": "꽁스",
+      "id": "ggongs",
+      "pw": "ggongs",
+      "licenseExpiry": "2024-08-30",
+      "permission": "마스터"
+    }
+  ]
+}
