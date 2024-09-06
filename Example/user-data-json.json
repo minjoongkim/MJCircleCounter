@@ -27,6 +27,13 @@
       "pw": "ggongs",
       "licenseExpiry": "2024-08-27",
       "permission": "마스터"
+    },
+    {
+      "name": "김철수",
+      "id": "test",
+      "pw": "test",
+      "licenseExpiry": "2024-09-15",
+      "permission": "마스터"
     }
   ]
 }
