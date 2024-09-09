@@ -5,35 +5,35 @@
       "id": "kmj",
       "pw": "kmj",
       "licenseExpiry": "2024-10-30",
-      "permission": "마스터"
+      "permission": "1"
     },
     {
       "name": "공돌이",
       "id": "gong",
       "pw": "gong",
       "licenseExpiry": "2024-09-30",
-      "permission": "마스터"
+      "permission": "1"
     },
     {
       "name": "김승철",
       "id": "ksc",
       "pw": "ksc",
       "licenseExpiry": "2024-09-30",
-      "permission": "마스터"
+      "permission": "1"
     },
     {
       "name": "꽁스",
       "id": "ggongs",
       "pw": "ggongs",
       "licenseExpiry": "2024-08-27",
-      "permission": "마스터"
+      "permission": "0"
     },
     {
       "name": "김철수",
       "id": "test",
       "pw": "test",
-      "licenseExpiry": "2024-09-15",
-      "permission": "마스터"
+      "licenseExpiry": "2024-09-30",
+      "permission": "0"
     }
   ]
 }
