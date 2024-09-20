@@ -35,6 +35,13 @@
       "pw": "test",
       "licenseExpiry": "2024-09-30",
       "permission": "0"
+    },
+    {
+      "name": "김철수",
+      "id": "test1",
+      "pw": "test1",
+      "licenseExpiry": "2024-09-30",
+      "permission": "1"
     }
   ]
 }
